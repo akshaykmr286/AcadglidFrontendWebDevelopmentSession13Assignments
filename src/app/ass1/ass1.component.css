@@ -1,0 +1,21 @@
+.bold{
+    font-weight: bold;
+}
+.brown{
+    color: brown;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.black{
+    color: black;
+}
+
+.even { color: red; }
+    .odd { color: green; }
+secondNav{
+    background-color: aqua;
+}

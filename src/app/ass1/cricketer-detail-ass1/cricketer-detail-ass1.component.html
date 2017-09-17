@@ -1,0 +1,13 @@
+<div class="panel panel-warning">
+  <div class="panel-heading">
+    <h3 class="panel-title">Player Details:</h3>
+  </div>
+  <div class="panel-body">
+    First Name : {{selectedPlayer.firstName | cpitalizeFirst}} <br>
+    Last Name : {{selectedPlayer.lastName | cpitalizeFirst}} <br>
+    Favourite Shot : {{selectedPlayer.favShot | cpitalizeFirst}} <br>
+    Player Type : {{selectedPlayer.playerType}} <br>
+    Yearly Income(INR) : {{selectedPlayer.yearlyIncome | currency : "INR" : false: "1.2-4"  }} <br>
+    Date Of Birth : {{selectedPlayer.dob}}
+  </div>
+</div>
